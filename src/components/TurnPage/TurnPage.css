@@ -1,0 +1,24 @@
+.prev,
+.next {
+  background: #fff;
+  border: none;
+  padding: 10px;
+  color: blue;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+  margin: 0 10px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.prev.disabled {
+  pointer-events: none;
+  box-shadow: none;
+  color: #999;
+}
+
+.nextAndPrev {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
