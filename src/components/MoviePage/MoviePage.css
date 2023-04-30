@@ -1,0 +1,31 @@
+.movie-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-10%);
+  height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .movie-page {
+    justify-content: center;
+    align-items: center;
+    margin-top: 8%;
+  }
+}
+
+.movie-img {
+  width: 300px;
+}
+
+@media (min-width: 768px) {
+  .movie-img {
+    width: 400px;
+  }
+}
+
+.release-date {
+  font-weight: 600;
+  margin-top: 10px;
+}

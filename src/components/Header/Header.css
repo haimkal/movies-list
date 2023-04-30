@@ -1,0 +1,38 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  background-color: #bce0e2;
+}
+
+@media (min-width: 768px) {
+  .header-container {
+    top: 0;
+    bottom: auto;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.container-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-name:hover {
+  color: rgb(255, 255, 186);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.credit {
+  font-weight: 500;
+}
+
+nav img {
+  width: 80px;
+}

@@ -1,7 +1,18 @@
 .movies-list {
   list-style-type: none;
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .movies-list {
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 6%;
+  }
 }
