@@ -25,7 +25,8 @@
   align-items: center;
 }
 
-.website-name:hover {
+.website-name:hover,
+nav img:hover + .website-name {
   color: rgb(255, 255, 186);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
 }
